@@ -15,7 +15,7 @@ class CartItem extends StatelessWidget {
   final String name;
   final num price;
   final String unit;
-
+  final string size;
   @override
   Widget build(BuildContext context) {
     return Container(
